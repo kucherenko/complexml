@@ -1,0 +1,7 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule !\.(htm|js|ico|gif|jpg|png|css|html|xsl|xml)$ index.php
