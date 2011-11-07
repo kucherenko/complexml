@@ -1,0 +1,14 @@
+complexml framework - an open source php framework
+--------------------------------------------------
+
+CompleXml Framework - an open source PHP framework. Designed for easy development of web applications of varying size. CompleXml has several distinctive features of these developments:
+
+ - Built on a design pattern MVC (Model - View - Controller);
+ - View of the framework is isolated from the model and the controller through the use of technology XML + XSL;
+ - Routing system based on the language of introspection;
+ - Flexible and easy cache system;
+ - Wide possibilities to optimize the rendering Web pages, including the generation of pages in the user's browser XML + XSL;
+ - "Honest" AJAX (asynchronous JavaScript + XML), a response from the server comes in the XML format;
+ - Authorization and access control tools;
+ - Tools for creating multi-threaded programs for the command line;
+ - More about the possibilities please read the documentation (http://complexml.org/en/docs).
