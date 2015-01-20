@@ -65,6 +65,7 @@ class CompleXml_Cache_Driver_File implements CompleXml_Cache_Driver_Interface{
             if (!$is_deleted){
                 throw new CompleXml_Cache_Exception( 'Can\'t clear cache, can\'t delete "'.$dir.'"' );
             }
+            return true;
         }
         foreach (scandir($dir) as $item) {
             if ($item == '.' || $item == '..'){
