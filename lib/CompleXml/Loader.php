@@ -28,13 +28,13 @@ final class CompleXml_Loader {
         self::getLibraryPath();
         $class = self::$_path . DIRECTORY_SEPARATOR . str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
         if (file_exists($class)) {
-            include $class;
+            include_once $class;
             return true;
         }
         if (defined('APPLICATION_HOME')){
             $class = APPLICATION_HOME . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
             if (file_exists($class)) {
-                include $class;
+                include_once $class;
                 return true;
             }
         }
